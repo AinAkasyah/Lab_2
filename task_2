@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 2</title>
+</head>
+<body>
+    <h1>Conference Registration Form</h1>
+    <form action="">
+        Full Name:<br>
+        <input type="text" name="fullname" placeholder="Enter your full name"><br><br>
+        
+        Email Address:<br>
+        <input type="email" name="email" placeholder="Enter your email address"><br><br>
+
+        Age:<br>
+        <input type="number" name="age" placeholder="18"><br><br>
+
+        Gender:<br>
+        <input type="radio" name="gender" value="male">Male<br>
+        <input type="radio" name="gender" value="female">Female<br><br>
+
+        Country of Residence:<br>
+        <select name="" id="">
+            <option value="Malaysia">Malaysia</option>
+            <option value="Singapore">Singapore</option>
+            <option value="Indonesia">Indonesia</option>
+            <option value="Thailand">Thailand</option>
+        </select><br><br>
+
+        Areas of Interest:<br>
+        <input type="checkbox" name="aoi" value="software development">Software Development<br>
+        <input type="checkbox" name="aoi" value="data science">Data Science<br>
+        <input type="checkbox" name="aoi" value="cybersecurity">Cybersecurity<br>
+        <input type="checkbox" name="aoi" value="artificial intelligence">Artificial Intelligence<br><br>
+        
+        Experience Level:<br>
+        <input type="radio" name="expLevel" value="beginner">Beginner<br>
+        <input type="radio" name="expLevel" value="intermediate">Intermediate<br>
+        <input type="radio" name="expLevel" value="advanced">Advanced<br><br>
+
+        Comments or Questions:<br>
+        <textarea id="cnq" name="cnq" rows="4" cols="50" placeholder="Any comments or question?"></textarea><br><br>
+
+        <input type="submit" value="Register">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+</html>
